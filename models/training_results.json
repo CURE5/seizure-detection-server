@@ -1,0 +1,10 @@
+{
+  "best_epoch": 40,
+  "best_val_recall": 0.9960474308300395,
+  "test_loss": 0.07956992921147805,
+  "test_accuracy": 0.9824824824824825,
+  "test_recall": 0.9960500329163924,
+  "test_precision": 0.9811932555123216,
+  "model_path": "models/hypermotor_detector_best.pth",
+  "timestamp": "2025-12-08T00:34:40.465330"
+}

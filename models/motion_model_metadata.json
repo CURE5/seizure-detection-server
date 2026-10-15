@@ -1,0 +1,18 @@
+{
+  "training_date": "2025-12-06 22:10:23.250619",
+  "data_dir": "training_data/motion_features",
+  "epochs_trained": 36,
+  "best_val_loss": 0.3572906513105739,
+  "test_accuracy": 0.845030281439259,
+  "test_auc": 0.9014183567754996,
+  "model_params": {
+    "input_size": 3,
+    "hidden_size": 128,
+    "num_layers": 2,
+    "dropout": 0.3
+  },
+  "training_params": {
+    "batch_size": 32,
+    "learning_rate": 0.001
+  }
+}

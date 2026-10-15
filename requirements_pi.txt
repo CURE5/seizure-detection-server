@@ -1,0 +1,47 @@
+# Core web framework
+fastapi==0.115.6
+uvicorn==0.33.0
+python-dotenv==1.0.1
+python-multipart==0.0.19
+aiofiles==25.1.0
+
+# HTTP client
+httpx==0.28.1
+aiohttp==3.11.11
+
+# Data validation
+pydantic==2.10.3
+email_validator==2.2.0
+
+# Computer vision and AI
+opencv-contrib-python==4.10.0.84
+numpy==1.26.4
+mediapipe==0.10.18
+
+# ONNX runtime for custom model
+onnxruntime==1.20.0
+
+# Raspberry Pi camera (Pi only)
+picamera2==0.3.23
+
+# Hailo AI accelerator (Pi only)
+# Install via: sudo apt install hailo-all
+# hailort package is installed as system package, not via pip
+
+# System utilities
+psutil==5.9.4
+python-dateutil==2.9.0.post0
+
+# Optional: Video encoding
+# av==14.0.1
+
+
+# Optional: Garmin HR over BLE (only required when ENABLE_GARMIN_HR=true)
+bleak==0.22.3
+
+# Optional: Garmin Connect Cloud backfill (sleep, HR history, HRV, stress)
+# Used by scripts/garmin_backfill.py — not required by the live server.
+# `garth` is a hard dep of garminconnect, pinned explicitly because pip
+# `--upgrade` has been observed to update garminconnect without pulling the
+# matching garth (token persistence + transport layer) on stale envs.
+garminconnect>=0.3.2

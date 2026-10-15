@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+sz/
+pose_env/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Runtime data (health data — never commit)
+data_logs/
+seizure_logs/
+medication_logs/
+hr_logs/
+garmin_backfill/
+.garmin_tokens/
+recorded_video/
+training_data/*
+!training_data/README.md
+*.mp4
+*.avi
+*.mov
+*.MOV
+
+# Downloaded models
+mediapipe_models/
+*.hef
+*.pth
+
+# Analysis artifacts
+*_results.json
+*_analysis.json
+*_analysis.png
+
+# Backups / temp
+*.bak
+*.backup
+tmp/
+temp/
+*.tmp
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+
+# Keep shipped model metadata
+!models/training_results.json
